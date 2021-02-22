@@ -1,0 +1,164 @@
+/*---------------------------------------------------------------------------------------------------------- 
+
+                                    Principales   /    Body
+
+----------------------------------------------------------------------------------------------------------*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 2.4rem;
+}
+h2 {
+    font-size: 3.6rem;
+    font-weight: 900;
+}
+h3 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+em, strong, time, blockquote, span, p {
+    font-style: normal;
+    font-weight: normal;
+}
+.bg-light {
+    background-color: #ffffff!important;
+}
+.bg-dark {
+    background-color: #000000!important;
+}
+.sombra {
+    text-shadow: 3px 1px 5px #111;
+}
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------- 
+
+                                    Header 1
+
+----------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.header1 {
+    height: 40rem;
+    background: url(../img/superior.jpg) bottom center / cover;
+}
+.header1 .header1-title{
+    font-weight: 300;
+}
+.header1 .header1-title span{
+    font-weight: 800;
+}
+li {
+    list-style: none;
+}
+@media (min-width:992px) {
+    .header1 .navegacion .nav-link[href="#"]::before {
+        content: "|";
+        margin-right: 1.5rem;
+    }
+}
+.header1-telefono::before {
+    content:"";
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    background: url(../img/icono_telefono.png) center center / cover;
+    margin-right: 1rem;
+}
+.contenido-hero h1 {
+    font-weight: 900;
+}
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------- 
+
+                                    Main   /   Nosotros
+
+----------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.nosotros .sobrenosotros-bg {
+    min-height: 44rem;
+    background: url(../img/nosotros.jpg) bottom left no-repeat;
+}
+@media (min-width:768px) {
+    .nosotros .sobrenosotros-bg {
+        min-height: 36rem;
+    }
+}
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------- 
+
+                                    Main   /   Modelos
+
+----------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.modelo .basico {
+    min-height: 40rem;
+}
+@media (min-width:768px) {
+    .modelo .basico {
+        min-height: 30rem;
+    }
+}
+.modelo .basico {
+    background: url(../img/modelo_basico.jpg) top right no-repeat;
+}
+
+.modelo .premier {
+    min-height: 40rem;
+}
+@media (min-width:768px) {
+    .modelo .premier {
+        min-height: 30rem;
+    }
+}
+.modelo .premier {
+    background: url(../img/modelo_premier.jpg) top left no-repeat;
+}
+.modelo .elite {
+    min-height: 40rem;
+}
+@media (min-width:768px) {
+    .modelo .elite {
+        min-height: 30rem;
+    }
+}
+.modelo .elite {
+    background: url(../img/modelo_elite.jpg) top right no-repeat;
+}
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------- 
+
+                                    Footer
+
+----------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.footerfinal {
+    height: 36rem;
+    background: url(../img/footer_bg.jpg) center center / cover;
+}
